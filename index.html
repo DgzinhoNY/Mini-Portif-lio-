@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="rolagem.css">
+    <title>Projeto Mini Portifólio</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./imagens/douglas.jpg" alt="Foto Perfil">
+            <h1 class="nome">Douglas Gabriel Vieira dos Santos</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Junior</h2>
+        </div>
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./imagens/information.gif" alt="icone sobre">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./imagens/heart.gif" alt="icone redes-sociais">
+                </li>
+            </ul>
+        <div class="informacoes-abas">
+            <div class="informacao selecionado" id="informacao-sobre-mim">
+                <h3 class="sub-titulo">Sobre</h3>
+            <!--</div> Antes voçe estava fechando a div aqui-->
+            <div class="descricao">
+                <p>Olá meu nome é Douglas Santos, seja bem-vindo(a)!</p>
+
+                <p>Sou uma pessoa apaixonada por programação. 
+                    Sempre tive o sonho de trabalhar na área de programação e agora estou colocando esse sonho em pratíca, estudando <span>HTML , CSS e JavaScript.</span>
+                    Sou um pessoa muito dinâmica, determinada e com facil aprendizagem.
+                    Curto estudar , jogos eletronicos como FPS , RPG , entre outros.
+                </p>
+            </div>
+            </div><!--Mais o correto é aqui-->
+        <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas Redes</h3>
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://www.linkedin.com/in/douglas-gabriel-santos/" target="_blank" class="linkedin">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://drive.google.com/file/d/1tkTBydCmd1TGb67zm3GoEH2RAnnxtBPx/view?usp=sharing" target="_blank" class="curriculo">Currículo</a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/douglas.gabrielvsantos?igshid=YmMyMTA2M2Y=" target="_blank" class="instagram">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://github.com/DgzinhoNY" target="_blank" class="github">Github</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+    </script>
+</body>
+</html> 
